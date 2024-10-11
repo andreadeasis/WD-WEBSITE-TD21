@@ -83,6 +83,7 @@ hr {
 }
 
 .text-container h3{
+    font-size: 1rem;
     margin: 0.5 rem 0;
     color:rgb(221, 194, 125);
 }
