@@ -138,6 +138,15 @@ hr {
 .my-education h3 {
     color: rgb(194, 156, 94);
 }
+
+.my-education p {
+    margin-left: 3rem;
+}
+
+.my-skills li {
+    margin-left: 3rem;
+}
+
 .interest-details,
 .software-details {
     display: flex;
@@ -160,4 +169,15 @@ hr {
     margin: 1rem;
     margin-top: -1rem;
     margin-bottom: 5px;
+}
+
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logo {
+    width: 5rem;
+    margin: 2rem;
 }

@@ -47,8 +47,9 @@ nav {
     display:flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 80vh;
     gap: 1rem;
+    margin-top: -5rem;
 }
 
 .image-container img{
@@ -103,5 +104,6 @@ nav {
 }
 .logo {
     width: 5rem;
+
     margin: 2rem;
 }
