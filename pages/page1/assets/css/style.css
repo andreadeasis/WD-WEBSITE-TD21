@@ -6,12 +6,7 @@
     color: black;
 }
 
-body {
-    background-image: url('/assets/img/BACKGROUND.jpg');
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
+/*navigation partq*/
 
 .header {
     display: flex;
@@ -19,6 +14,13 @@ body {
     align-items: center;
     background-color: rgb(221, 194, 126);
     padding: 1rem;
+}
+
+body {
+    background-image: url('/assets/img/BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 nav {
@@ -32,7 +34,7 @@ nav {
     margin: 5px;
     background-color: transparent;
     text-decoration: none;
-    & p {
+& p {
         color: rgb(143, 94, 20);
     }
 }
@@ -43,23 +45,119 @@ nav {
     color: rgb(54, 35, 7);
 }
 
+/*Frist section AAAAAUSIN AAAAA*/
+
 .container {
-    display: flex;
-    flex-direction: row-reverse;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 1rem;
+    max-width: 1000px;
+    margin:auto
 }
 
-.image-container img {
-    width: 150px;
-    height: 135px;
+.intro-section {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.intro-section h1 {
+    display: flex;
+    font-size: 50px;
+    text-align: right;
+    margin-top: 8rem;
+    color: rgb(224, 206, 159);
+}
+
+.intro-section p{
+    font-size: 18px;
+    text-align: right;
+    color: rgb(221, 194, 126);
+}
+.image-container img{
+    width: 20rem;
+    object-fit: cover;
+    margin-top: 2rem;
+}
+
+.image-container {
+    display: flex;
+    align-items: center;
 }
 
 .text-container {
-    display:flex;
-    flex-direction: column;
-    justify-content: flex-start;
     text-align: right;
-    margin-right: 0;
+    margin: 1rem;
+}
+
+/*second part*/
+
+hr {
+    clear: both;
+    border: none;
+    height: 1px;
+    background-color: rgb(221, 194, 126);
+    width: 60%; /* Set width as desired */
+    margin: 2rem auto;
+}
+.my-education,
+.my-interests,
+.my-skills,
+.my-software {
+    background-color: rgba(245, 226, 190, 0.2);
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.school-title,
+.interest-title,
+.skill-title,
+.software-title {
+    font-size: 25px;
+    font-weight: bold;
+    color: rgb(224, 206, 159);
+    margin-bottom: 1rem;
+}
+
+.education-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.education-name {
+    margin-bottom: 10px;
+}
+
+
+.my-education p,
+.my-interests p,
+.my-skills li,
+.my-software p {
+    color: rgb(221, 194, 126);
+}
+
+.my-education h3 {
+    color: rgb(194, 156, 94);
+}
+.interest-details,
+.software-details {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.interest-name,
+.software-name {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin: 1rem;
+}
+
+.interest-name img,
+.software-name img {
+    width: 100px;
+    margin: 1rem;
+    margin-top: -1rem;
+    margin-bottom: 5px;
 }
