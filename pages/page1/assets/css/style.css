@@ -61,4 +61,5 @@ nav {
     flex-direction: column;
     justify-content: flex-start;
     text-align: right;
+    margin-right: 0;
 }
