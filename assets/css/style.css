@@ -1,3 +1,4 @@
+/* HOME*/
 *{
     margin: 0;
     padding: 0;
@@ -6,19 +7,23 @@
 }
 
 body {
-    background-color: rgb(66,66, 72);
+    background-image: url('/assets/img/BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    background-color: rgb(221, 194, 126);
     padding: 1rem;
 }
 
 nav {
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     gap: 0.5rem;
 }
 
@@ -28,22 +33,14 @@ nav {
     background-color: transparent;
     text-decoration: none;
     & p {
-        color: rgb(221, 194, 126);
+        color: rgb(143, 94, 20);
     }
 }
 
 .btn:hover p,
 .btn:hover span
 .btn:hover {
-    color: rgb(143, 94, 20);
-}
-
-hr {
-    border: none;
-    height: 0.5px;
-    background-color: rgb(221, 194, 126);
-    width: 85%;
-    margin: auto;
+    color: rgb(54, 35, 7);
 }
 
 .container {
@@ -51,11 +48,11 @@ hr {
     justify-content: center;
     align-items: center;
     height: 100vh;
-    gap: 2rem;
+    gap: 1rem;
 }
 
 .image-container img{
-    width: 20rem;
+    width: 30rem;
     object-fit: cover;
 }
 
@@ -67,23 +64,43 @@ hr {
 .text-container {
     display:flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
+    margin-left: 3rem;
 }
 
 .text-container h1{
+    font-size: 10rem;
+    text-decoration: wavy;
+    margin: 0.5 rem 0;
+    color:rgb(221, 194, 126);
+    gap:3rem;
+}
+
+.text-container h2{
     font-size: 5rem;
     margin: 0.5 rem 0;
     color:rgb(221, 194, 126);
 }
 
-.text-container h2{
-    font-size: 2rem;
-    margin: 0.5 rem 0;
-    color:rgb(221, 194, 125);
-}
-
 .text-container h3{
     font-size: 1rem;
     margin: 0.5 rem 0;
-    color:rgb(221, 194, 125);
+    color:rgb(221, 194, 126);
+}
+
+.introduction {
+    text-align: center;
+    font-size: 25px;
+    color: rgb(221, 194, 126);
+    width: 85%;
+    margin: auto;
+}
+
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.logo {
+    width: 5rem;
 }
