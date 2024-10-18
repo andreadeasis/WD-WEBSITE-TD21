@@ -1,0 +1,49 @@
+/* My Works */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*navigation partq*/
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 194, 126);
+    padding: 1rem;
+}
+
+body {
+    background-image: url('/assets/img/GENERAL/BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    background-color: transparent;
+    text-decoration: none;
+& p {
+        color: rgb(143, 94, 20);
+    }
+}
+
+.btn:hover p,
+.btn:hover span
+.btn:hover {
+    color: rgb(54, 35, 7);
+}
+
+
+
+
+
