@@ -1,10 +1,8 @@
-/* ABOUT ME */
 *{
     margin: 0;
     padding: 0;
 }
 
-/*navigation partq*/
 
 .header {
     display: flex;
@@ -15,7 +13,7 @@
 }
 
 body {
-    background-image: url('/assets/img/GENERAL/BACKGROUND.jpg');
+    background-image: url('/assets/img/BACKGROUND.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,9 +30,10 @@ nav {
     margin: 5px;
     background-color: transparent;
     text-decoration: none;
-& p {
-        color: rgb(143, 94, 20);
-    }
+}
+
+.btn p {
+    color: rgb(143, 94, 20);
 }
 
 .btn:hover p,
@@ -43,7 +42,7 @@ nav {
     color: rgb(54, 35, 7);
 }
 
-/*Frist section AAAAAUSIN AAAAA*/
+
 
 .container {
     display: grid;
