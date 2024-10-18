@@ -59,21 +59,20 @@ andreadeasis2
 <!-- The following are just sample -->
 Description of the project in details.
 
-Guiding Question:
-- What is the project
-- Whats the purpose
-- What are key components
-- What technology used and how it is used
+This project serves as a digital resume designed to introduce who I am, highlight my skills as well as showcase my qualifications. It also serves as a portfolio featuring a collection of my works from recent years. Its primary purpose is to provide an organized platform where people can learn about me, explore my portfolio, and easily contact me. It is a represention of my creative work and personal brand.
 
 ### Key Components
-<!-- TODO: List of Key Components -->
-<!-- The following are just sample -->
 - MultiPage Website/Single Page Website
-- Parallax transition
-- Transactional
+Homepage: Offers an introduction and overview of the website.
+About Me: Highlights my background, interests, skills, and qualifications.
+Portfolio: Displays samples of my work, showcasing traditional and digital art, as well as poster designs.
+Contact: Provides information on how to reach me which are: email and intagram.
+
+
 
 ### Technology
 <!-- TODO: List of Technology Used -->
+HTML, CSS, JavaScript
 ![HTML](https://img.shields.io/badge/HTML-E34F26?style=for-the-badge&logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=white)
@@ -124,6 +123,7 @@ WD-ProjectName
 |Hoverable Buttons| Hover Button |https://www.w3schools.com/css/css3_buttons.asp |
 |<div> as a container| Div as container |https://www.w3schools.com/html/html_div.asp |
 |mailto| To create a link that opens in the user's email program |https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto |
-|  |  | |
+|Icon| Mail Icon |https://www.flaticon.com/free-icons/email|
+|Icon| Instagram Icon |https://www.flaticon.com/free-icons/instagram-logo |
 |  |  | |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
