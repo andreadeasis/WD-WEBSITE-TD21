@@ -2,8 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    color: black;
 }
 
 /*navigation partq*/
@@ -96,14 +94,14 @@ hr {
     border: none;
     height: 1px;
     background-color: rgb(221, 194, 126);
-    width: 60%; /* Set width as desired */
+    width: 60%; 
     margin: 2rem auto;
 }
 .my-education,
 .my-interests,
 .my-skills,
 .my-software {
-    background-color: rgba(245, 226, 190, 0.2);
+    background-color: rgb(65, 62, 64);
     padding: 15px;
     border-radius: 5px;
 }
@@ -171,6 +169,7 @@ hr {
     margin-bottom: 5px;
 }
 
+/*LOGO*/
 
 .logo-container {
     display: flex;
