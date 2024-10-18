@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(221, 194, 126);
+    padding: 1rem;
+}
+
+body {
+    background-image: url('/assets/img/GENERAL/BACKGROUND.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 0.5rem;
+}
+
+.btn {
+    padding: 0.5rem 1rem;
+    margin: 5px;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+.btn p {
+    color: rgb(143, 94, 20);
+}
+
+.btn:hover p,
+.btn:hover span,
+.btn:hover {
+    color: rgb(54, 35, 7);
+}
+
+h1 {
+    color: rgb(221, 194, 126);
+}
+
+.container {
+    text-align: center;
+    margin-top: 5rem;
+}
+
+.contact-info {
+    background-color: rgb(221, 194, 126);
+    padding: 20px;
+    width: 30rem;
+    margin: 20px auto;
+    border-radius: 5px;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.contact-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact-item img {
+    width: 10rem;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.contact-item a {
+    margin: 0;
+    text-decoration: none;
+    color: rgb(143, 94, 20);
+}
+.logo-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.logo {
+    width: 5rem;
+    margin: 5rem;
+}
