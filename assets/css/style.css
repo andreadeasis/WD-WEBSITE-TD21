@@ -30,12 +30,10 @@ nav {
     margin: 5px;
     background-color: transparent;
     text-decoration: none;
+    & p {
+        color: rgb(143, 94, 20);
+    }
 }
-
-.btn p {
-    color: rgb(143, 94, 20);
-}
-
 
 .btn:hover p,
 .btn:hover span
