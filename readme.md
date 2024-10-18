@@ -57,15 +57,15 @@ andreadeasis2
 
 <!-- TODO: To be changed -->
 <!-- The following are just sample -->
-Description of the project in details.
+Description of the project in details.<br />
 
 This project serves as a digital resume designed to introduce who I am, highlight my skills as well as showcase my qualifications. It also serves as a portfolio featuring a collection of my works from recent years. Its primary purpose is to provide an organized platform where people can learn about me, explore my portfolio, and easily contact me. It is a represention of my creative work and personal brand.
 
 ### Key Components
-- MultiPage Website/Single Page Website
-Homepage: Offers an introduction and overview of the website.
-About Me: Highlights my background, interests, skills, and qualifications.
-Portfolio: Displays samples of my work, showcasing traditional and digital art, as well as poster designs.
+- MultiPage Website/Single Page Website<br />
+Homepage: Offers an introduction and overview of the website.<br />
+About Me: Highlights my background, interests, skills, and qualifications.<br />
+Portfolio: Displays samples of my work, showcasing traditional and digital art, as well as poster designs.<br />
 Contact: Provides information on how to reach me which are: email and intagram.
 
 
@@ -115,15 +115,27 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
+<br />
 |How to remove underline in a button|remove underline in a button|https://www.shecodes.io/athena/75845-how-to-remove-underline-in-a-button#:~:text=To%20remove%20the%20underline%20in%20a%20button%2C%20you%20can%20use,or%20its%20class%20or%20ID.&text=This%20will%20remove%20the%20underline,desired%20button%20or%20its%20selector.|
+<br />
 | CSS background-image | adding background image |https://www.w3schools.com/css/css_background_image.asp |
+<br />
 | CSS background-repeat: no-repeat | only once image |https://www.w3schools.com/css/css_background_repeat.asp |
+<br />
 |CSS background-position | background position |https://www.w3schools.com/css/css_background_repeat.asp |
+<br />
 |CSS Layout - Horizontal & Vertical Align  | Align Elements | https://www.w3schools.com/css/css_align.asp|
+<br />
 |Hoverable Buttons| Hover Button |https://www.w3schools.com/css/css3_buttons.asp |
+<br />
 |<div> as a container| Div as container |https://www.w3schools.com/html/html_div.asp |
+<br />
 |mailto| To create a link that opens in the user's email program |https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto |
+<br />
 |Icon| Mail Icon |https://www.flaticon.com/free-icons/email|
+<br />
 |Icon| Instagram Icon |https://www.flaticon.com/free-icons/instagram-logo |
+<br />
 |  |  | |
+<br />
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
