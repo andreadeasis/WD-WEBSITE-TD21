@@ -116,5 +116,14 @@ WD-ProjectName
 
 <!-- TODO: Add References -->
 | Title | Purpose | Link |
-|-|-|-|
+|How to remove underline in a button|remove underline in a button|https://www.shecodes.io/athena/75845-how-to-remove-underline-in-a-button#:~:text=To%20remove%20the%20underline%20in%20a%20button%2C%20you%20can%20use,or%20its%20class%20or%20ID.&text=This%20will%20remove%20the%20underline,desired%20button%20or%20its%20selector.|
+| CSS background-image | adding background image |https://www.w3schools.com/css/css_background_image.asp |
+| CSS background-repeat: no-repeat | only once image |https://www.w3schools.com/css/css_background_repeat.asp |
+|CSS background-position | background position |https://www.w3schools.com/css/css_background_repeat.asp |
+|CSS Layout - Horizontal & Vertical Align  | Align Elements | https://www.w3schools.com/css/css_align.asp|
+|Hoverable Buttons| Hover Button |https://www.w3schools.com/css/css3_buttons.asp |
+|<div> as a container| Div as container |https://www.w3schools.com/html/html_div.asp |
+|mailto| To create a link that opens in the user's email program |https://www.w3schools.com/tags/tryit.asp?filename=tryhtml_link_mailto |
+|  |  | |
+|  |  | |
 | Sample Title | Sample purpose would be here like this and this is the example of what it is. | trykolang.com |
