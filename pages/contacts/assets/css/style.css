@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 .header {
@@ -13,7 +12,7 @@
 }
 
 body {
-    background-image: url('/assets/img/BACKGROUND.jpg');
+    background-image: url('../../../../assets/img/BACKGROUND.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -42,59 +41,55 @@ nav {
     color: rgb(54, 35, 7);
 }
 
-.item-name {
-    max-width: 1000px;
-    margin: 0 auto;
-    padding: 20px;
+h1 {
+    color: rgb(221, 194, 126);
+}
+
+.container {
     text-align: center;
+    margin-top: 5rem;
 }
 
-.item-title {
-    color: rgb(221, 194, 126);
+.contact-info {
+    background-color: rgb(221, 194, 126);
+    padding: 20px;
+    width: 30rem;
+    margin: 20px auto;
+    border-radius: 5px;
 }
 
-.section-title {
-    color: rgb(221, 194, 126);
-    margin: 1rem 0;
+.contact-details {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
 }
 
-.item-grid {
+.contact-item {
     display: flex;
     flex-direction: column;
-    gap: 2rem;
-    margin-top: auto;
-}
-
-.item-image {
-    width: 100%;
-}
-
-.item-image img {
-    width: 25rem;
-    height: auto;
-    object-fit: cover;
-}
-
-.item-image p {
-    color: bisque;
+    align-items: center;
     text-align: center;
 }
 
-hr {
-    clear: both;
-    border: none;
-    height: 1px;
-    background-color: rgb(221, 194, 126);
-    width: 80%;
-    margin: 2rem auto;
+.contact-item img {
+    width: 10rem;
+    height: auto;
+    margin-bottom: 10px;
 }
 
+.contact-item a {
+    margin: 0;
+    text-decoration: none;
+    color: rgb(143, 94, 20);
+}
 .logo-container {
     display: flex;
     justify-content: center;
     margin-top: 10px;
 }
+
 .logo {
     width: 5rem;
-    margin: 2rem;
+    margin: 5rem;
 }
+
